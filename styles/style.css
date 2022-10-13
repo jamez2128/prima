@@ -3,7 +3,7 @@
 }
 
 body{
-    padding: 0;
+    padding: 0; 
     margin: 0;
 }
 
@@ -25,11 +25,11 @@ body{
 
 #mainNav ul{
     list-style: none;
+    margin: auto;
 }
 
 #mainNav ul li{
     display: inline;
-    margin-top:100px ;
 }
 
 #mainNav ul li a{
@@ -39,6 +39,10 @@ body{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px 15px;
+}
+
+#mainNav ul li a:hover{
+    text-decoration: underline;
 }
 
 .loginSignup{
@@ -57,6 +61,12 @@ body{
     border-radius: 50px;
     border: darkslategray 2px solid;
     margin: 0px 7px;
+}
+
+.loginSignup a:hover{
+    background-color: lightgray;
+    color: #000;
+    transition: ease .4s;
 }
 
 
