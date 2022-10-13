@@ -9,7 +9,7 @@ body{
 
 #mainNav{
     background-color: white;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid white;
     display: flex;
     justify-content: space-between;
 }
@@ -37,7 +37,7 @@ body{
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Oswald';
     padding: 5px 15px;
 }
 
@@ -56,10 +56,10 @@ body{
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: gray;
+    font-family: 'Bebas Neue Pro';
+    background-color: royalblue;
     border-radius: 50px;
-    border: darkslategray 2px solid;
+    border: royalblue 2px solid;
     margin: 0px 7px;
 }
 
