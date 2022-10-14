@@ -70,24 +70,17 @@ body{
     transition: ease .4s;
 }
 
-.hero{
-    font-family: 'Oswald';
-    font-weight: bolder;
-    color: gainsboro;
-    position: center;
-    font-kerning: 20px;
+
+
+
+.boxes h2{
+    font-size: 1.5rem;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 5px;
+}   
+
+.boxes p{
+    color: red; 
+    font-size: 20px;
 }
-
-.p button{
-    border:1px solid rgb(127, 204, 255);
-    background:rgb(127, 204, 255);
-    color: black;
-    position: center;
-}
-
-.p button:hover{
-    border:1px solid rgb(14, 135, 216);
-    background:rgb(14, 135, 216);
-    color:black;
-  }
-
