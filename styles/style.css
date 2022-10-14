@@ -30,6 +30,7 @@ body{
 
 #mainNav ul li{
     display: inline;
+    padding: 20px;
 }
 
 #mainNav ul li a{
@@ -67,10 +68,6 @@ body{
     background-color: lightgray;
     color: #000;
     transition: ease .4s;
-}
-
-.carousel-item{
-    transition: slide-in-out 8s;
 }
 
 .hero{
