@@ -88,13 +88,13 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    z-index: 999;
 }
 
 #homepage-description h1 {
     font-size: 100px;
     color: #3c99dc;
 }
-
 
 #homepage-description p {
     font-size: 25px;
