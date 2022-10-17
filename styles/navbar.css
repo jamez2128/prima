@@ -1,0 +1,58 @@
+nav {
+    background-color: #3c99dc;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+nav img {
+    width: 11rem;
+    height: 4rem;
+    margin-left: 80px;
+}
+
+#main-navigation ul {
+    list-style: none;
+    margin: auto;
+}
+
+#main-navigation ul li {
+    display: inline;
+    padding: 20px;
+}
+
+#main-navigation ul li a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Oswald';
+    padding: 5px 15px;
+}
+
+#main-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.loginSignup {
+    margin-right: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.loginSignup a {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Bebas Neue Pro';
+    border-radius: 50px;
+    border: black 2px solid;
+    margin: 0px 7px;
+}
+
+.loginSignup a:hover {
+    background-color: #d5f3fe;
+    color: black;
+    transition: ease .4s;
+}
