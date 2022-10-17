@@ -1,5 +1,5 @@
 nav {
-    background-color: #3c99dc;
+    background-color: ghostwhite;
     display: flex;
     justify-content: space-between;
     z-index: 999;
@@ -43,16 +43,16 @@ nav img {
 .loginSignup a {
     padding: 5px 15px;
     text-decoration: none;
-    color: black;
+    color: #3c99dc;
     font-size: 18px;
     font-family: 'Bebas Neue Pro';
     border-radius: 50px;
-    border: black 2px solid;
+    border: #3c99dc 2px solid;
     margin: 0px 7px;
 }
 
 .loginSignup a:hover {
-    background-color: #d5f3fe;
+    background-color: #3c99dc;
     color: black;
     transition: ease .4s;
 }
