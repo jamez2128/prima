@@ -7,73 +7,7 @@ body {
     margin: 0;
 }
 
-<<<<<<< HEAD
-#mainNav{
-    background-color: white;
-    border-bottom: 2px solid white;
-    display: flex;
-    justify-content: space-between;
-}
-
-#mainNav img{
-    width: 11rem;
-    height: 4rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 80px;   
-}
-
-#mainNav ul{
-    list-style: none;
-    margin: auto;
-}
-
-#mainNav ul li{
-    display: inline;
-    padding: 20px;
-}
-
-#mainNav ul li a{
-    margin: 0px 10px;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-family: 'Oswald';
-    padding: 5px 15px;
-}
-
-#mainNav ul li a:hover{
-    text-decoration: underline;
-}
-
-.loginSignup{
-    margin-right: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.loginSignup a{
-    padding: 5px 15px;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: 'Bebas Neue Pro';
-    background-color: royalblue;
-    border-radius: 50px;
-    border: royalblue 2px solid;
-    margin: 0px 7px;
-}
-
-.loginSignup a:hover{
-    background-color: lightgray;
-    color: #000;
-    transition: ease .4s;
-}
-
-.boxes h2{
-=======
 .boxes h2 {
->>>>>>> 3b6592080d5dfb27070015d09661c30221ae58c7
     font-size: 1.5rem;
     margin: 0%;
     padding: 0%;
