@@ -175,6 +175,18 @@
 	text-transform: uppercase
 }
 
+.submit-btn:hover {
+	color: #fff;
+	background-color: #3e87be;
+	font-weight: 400;
+	height: 50px;
+	font-size: 18px;
+	border: none;
+	width: 100%;
+	border-radius: 40px;
+	text-transform: uppercase
+}
+
 .booking-cta h1 {
 	font-size: 100px;
 	text-transform: uppercase;
