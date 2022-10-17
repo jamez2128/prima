@@ -1,12 +1,13 @@
-*{
+* {
     scroll-behavior: smooth;
 }
 
-body{
-    padding: 0; 
+body {
+    padding: 0;
     margin: 0;
 }
 
+<<<<<<< HEAD
 #mainNav{
     background-color: white;
     border-bottom: 2px solid white;
@@ -70,14 +71,17 @@ body{
 }
 
 .boxes h2{
+=======
+.boxes h2 {
+>>>>>>> 3b6592080d5dfb27070015d09661c30221ae58c7
     font-size: 1.5rem;
     margin: 0%;
     padding: 0%;
     margin-top: 5px;
-}   
+}
 
-.boxes p{
-    color: red; 
+.boxes p {
+    color: red;
     font-size: 20px;
 }
 
@@ -87,6 +91,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    z-index: 998;
 }
 
 #homepage-description h1 {
@@ -94,21 +99,20 @@ body{
     color: #3c99dc;
 }
 
-
 #homepage-description p {
     font-size: 25px;
     color: #fff;
 }
 
 #homepage-description button {
-    border:1px solid #3c99dc;
-    color:#fff;
+    border: 1px solid #3c99dc;
+    color: #fff;
 }
- 
+
 #homepage-description button:hover {
-    border:1px solid #3c99dc;
-    background: #3c99dc;;
-    color:#000;
+    border: 1px solid #3c99dc;
+    background: #3c99dc;
+    color: #000;
 }
 
 .overlay {
@@ -118,4 +122,16 @@ body{
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.6);
-  }
+}
+
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}

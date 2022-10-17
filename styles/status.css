@@ -1,0 +1,35 @@
+.status{
+    background-image: url('../assets/images/bg.jpg'); 
+    margin: 0%;
+    padding: 0%;  
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+.boxes{
+    background-color: white;
+    margin: 20px;
+    padding: 10px 0px 10px 20px;
+    box-shadow: #000 3px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxes h1{
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.5rem;
+}
+
+.boxes h2{
+    margin: 0%;
+    padding: 0%;
+    font-size: 1rem;
+}
+
+.boxes p{
+    color: red;
+    font-size: 15px;
+}
