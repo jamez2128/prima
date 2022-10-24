@@ -86,7 +86,15 @@ body{
   cursor: pointer;
 }
 
-
+.btn:hover{
+  margin-top: 40px;
+  background: #1d80d1;
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 420px){
   .card-grp{
