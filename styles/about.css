@@ -1,0 +1,25 @@
+body{
+    background: url(../assets/images/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+#about{
+    margin: 50px;
+    position: relative;
+}
+
+.img img{
+    width:20%;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.text{
+    text-align: justify;
+    width: 80%;
+    margin-left: 25%;
+    text-indent: 5%;
+}
+
+
