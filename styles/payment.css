@@ -16,12 +16,12 @@ body{
 .payment{
   background: #f8f8f8;
   max-width: 360px;
-  margin: 80px auto;
+  margin: 110px auto;
   height: auto;
   padding: 35px;
   padding-top: 30px;
   border-radius: 5px;
-  margin-top: 200px;
+  position: center;
 }
 
 .payment h2{
