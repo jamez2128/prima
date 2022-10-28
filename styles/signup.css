@@ -64,13 +64,30 @@ button {
 
 .form {
   position: relative;
-  width: 640px;
+  width: 620px;
   height: 100%;
-  padding: 50px 30px;
+  padding: 20px 30px;
   -webkit-transition: -webkit-transform 1.2s ease-in-out;
   transition: -webkit-transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column1{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 h2 {
@@ -310,6 +327,7 @@ button {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
 
 @media screen and (max-width: 575.98px) {
 
