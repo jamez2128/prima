@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
     <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="../lib/jquery.js"></script>
-    <title> Insert users table | Admin | Prima Aeronautics</title>
+    <title> Insert user | Admin | Prima Aeronautics</title>
     <?php
       include "connection.php";
     ?>

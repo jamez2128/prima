@@ -16,7 +16,6 @@
     
     <div class="container mt-3">
     <h2>users</h2>
-    <a href="insert_user.php"><button class="btn btn-success">Insert</button></a>
     <table class="table table-bordered">
         <thead>
         <tr>
@@ -26,6 +25,7 @@
             <th>lastname</th>
             <th>email</th>
             <th>contact</th>
+            <th>Actions</th>
         </tr>
         </thead>
             <?php
@@ -38,6 +38,7 @@
                     echo "<td>"; echo $row["lastname"]; echo "</td>";
                     echo "<td>"; echo $row["email"]; echo "</td>";
                     echo "<td>"; echo $row["contact"]; echo "</td>";
+                    echo "<td>"; ?> <a href="edit_user.php?userid=<?php echo $row["userid"]; ?>"> <button type="button" class="btn btn-success"> Edit </button> </a> <a href="delete_user.php?userid=<?php echo $row["userid"] ?>"> <button type="button" class="btn btn-danger"> Delete </button> </a> <?php echo "</td>";
                     echo "</tr>";
                 }
             ?>
@@ -45,11 +46,11 @@
 
         </tbody>
     </table>
+    <a href="insert_user.php"><button class="btn btn-success">Insert user</button></a>
     </div>
 
     <div class="container mt-3">
     <h2>plane</h2>
-    <a href="insert_plane.php"><button class="btn btn-success">Insert</button></a>
     <table class="table table-bordered">
         <thead>
         <tr>
@@ -57,6 +58,7 @@
             <th>image</th>
             <th>name</th>
             <th>capacity</th>
+            <th>Actions</th>
         </tr>
         </thead>
             <?php
@@ -64,9 +66,10 @@
                 while ($row = mysqli_fetch_array($result)) {
                     echo "<tr>";
                     echo "<td>"; echo $row["planeid"]; echo "</td>";
-                    echo "<td>"; echo $row["image"]; echo "</td>";
+                    echo "<td>"; ?> <img height=100 width=100 src="<?php echo "../".$row["image"] ?>"> <?php echo "</td>";
                     echo "<td>"; echo $row["name"]; echo "</td>";
                     echo "<td>"; echo $row["capacity"]; echo "</td>";
+                    echo "<td>"; ?> <a href="edit_plane.php?planeid=<?php echo $row["planeid"]; ?>"> <button type="button" class="btn btn-success"> Edit </button> </a> <a href="delete_plane.php?planeid=<?php echo $row["planeid"] ?>"> <button type="button" class="btn btn-danger"> Delete </button> </a> <?php echo "</td>";
                     echo "</tr>";
                 }
             ?>
@@ -74,7 +77,7 @@
 
         </tbody>
     </table>
+    <a href="insert_plane.php"><button class="btn btn-success">Insert plane</button></a>
     </div>
-
 </body>
 </html>
