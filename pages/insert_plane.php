@@ -9,7 +9,7 @@ include "connection.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
     <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../lib/jquery.js"></script>
+    <script src="../lib/jquery-3.6.1.js"></script>
     <title> Insert plane | Admin | Prima Aeronautics</title>
 </head>
 <body>
