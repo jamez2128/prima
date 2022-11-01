@@ -39,8 +39,8 @@ include "connection.php";
 if(isset($_POST["insert"])) {
     $tm=md5(time());
     $fnm=$_FILES["fl"]["name"];
-    $dst="../assets/images/imagedb".$tm.$fnm;
-    $dst1="assets/images/imagedb".$tm.$fnm;
+    $dst="../assets/images/imagedb/".$tm.$fnm;
+    $dst1="assets/images/imagedb/".$tm.$fnm;
     move_uploaded_file($_FILES["fl"]["tmp_name"], $dst);
 
     mysqli_query($link, "insert into planes (image, name, capacity) values('$dst1', '$_POST[name]', '$_POST[capacity]')");
